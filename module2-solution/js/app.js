@@ -11,11 +11,11 @@
         var shoppingListService = this;
 
         shoppingListService.toBuyList = [
-            { name: 'item1' },
-            { name: 'item2' },
-            { name: 'item3' },
-            { name: 'item4' },
-            { name: 'item5' },
+            { name: 'Apples', quantity: 6 },
+            { name: 'Pears', quantity: 2 },
+            { name: 'Oranges', quantity: 3 },
+            { name: 'Peaches', quantity: 4 },
+            { name: 'Melons', quantity: 5 },
         ];
 
         shoppingListService.boughtList = [];
