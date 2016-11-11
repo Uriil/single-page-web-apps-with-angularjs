@@ -42,7 +42,6 @@
       No such menu number exists
     </span>
   </div>
-  <!--ng-disabled="regForm.$invalid"-->
-  <button type="submit" class="btn btn-default"ng-click="$ctrl.submit()">Submit</button>
+  <button type="submit" ng-disabled="regForm.$invalid" class="btn btn-default"ng-click="$ctrl.submit()">Submit</button>
   {{ $ctrl.resultMessage }}
 </form>
