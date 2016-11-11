@@ -9,7 +9,7 @@ angular.module('public')
   controller: SignUpFormController
 });
 
-
+ 
 SignUpFormController.$inject = ['MenuService', 'UserService'];
 function SignUpFormController(MenuService, UserService) {
   var $ctrl = this;
